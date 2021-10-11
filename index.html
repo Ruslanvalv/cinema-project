@@ -10,6 +10,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css
     ">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+  />
     <link rel="stylesheet" href="css/style.css">
    
 </head>
@@ -22,6 +26,15 @@
             <a href="/">
                 <img src="img/logo.svg" alt="logo"></a>
                 <nav class="nav">
+                    <button class="m-menu">
+                        <svg width="20" height="15" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 5L0 5" stroke="white"/>
+                            <path d="M15 1L0 1" stroke="white"/>
+                            <path d="M15 9L0 9" stroke="white"/>
+                            </svg>
+                            
+                    
+                    </button>
                     <ul class="menu">
                         <li class="menu-item">
                             <a href="#" class="menu-link">Главная</a>
@@ -69,7 +82,7 @@
                       </div>
                 </div>
                         </div>
-            <a href="#" class="film-trailer"><img src="/img/pb.svg" alt=""></a>
+            <a data-fancybox="video-gallery" data-src="https://www.youtube.com/watch?v=z2X2HaTvkl8" href="#" class="film-trailer"><img src="/img/pb.svg" alt=""></a>
         </div>
         <!-- /.film -->
        <div class="session _container">
@@ -117,7 +130,7 @@
        </div> 
     </header>
     <div class="scheme _container">
-        <svg class='scheme-svg' width="1170" height="600" viewBox="0 0 1170 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg class='scheme-svg' viewBox="0 0 1170 600" fill="none" xmlns="http://www.w3.org/2000/svg">
 
             
             
@@ -327,5 +340,6 @@
 
 
 <script src="/js/scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 </body>
 </html>
